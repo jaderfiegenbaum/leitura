@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name">Leitura</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_principal">Leitura</string>
+    <string name="btNovaLeitura">Leitura</string>
+    <string name="btGerenciarHidrometros">Hidrômetros</string>
+    <string name="btExportarLeituras">Exportar leitura</string>
+    <string name="btSair">Sair</string>
+    <string name="title_activity_gerenciar_hidrometros">Gerenciar hidrômetros</string>
+    <string name="btPrimeiro">&lt;|</string>
+    <string name="btRetrocede">&lt;&lt;</string>
+    <string name="btInsere">+</string>
+    <string name="btAltera">A</string>
+    <string name="btExclui">-</string>
+    <string name="btAvanca">>></string>
+    <string name="btUltimo">|></string>
+    <string name="btAtualiza">(Atu)</string>
+    <string name="tvNumero">Número:</string>
+    <string name="htNumero">Número do hidrômetro</string>
+    <string name="tvNome">Nome:</string>
+    <string name="htNome">Nome da cota</string>
+    <string name="tvObservacao">Observação:</string>
+    <string name="htObservacao"></string>
+    <string name="tvLatitude">Latitude:</string>
+    <string name="tvLongitude">Longitude:</string>
+    <string name="btOk">OK</string>
+    <string name="btCancelar">Cancelar</string>
+    <string name="btSalvar">Salvar</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="title_activity_inserir">Inserir</string>
+    <string name="tabInserir">Inserir</string>
+    <string name="title_activity_leitura">Leitura</string>
+    <string name="tvProximaLeitura">Próxima:</string>
+    <string name="btProximaLeitura">Ir</string>
+    <string name="tvNumeroC">Número:</string>
+    <string name="tvNomeC">Nome:</string>
+    <string name="tvLeitura">Leitura:  </string>
+    <string name="btLeituraAnterior">Anterior</string>
+    <string name="btLeituraProxima">Próximo</string>
+    <string name="btSalvarC">OK</string>
+    <string name="tvObservacaoC">Observação:</string>
+    <string name="title_activity_exportar_dados">ExportarDados</string>
+    <string name="tvTitulo">Será criado o arquivo leitura.csv no cartão de memória</string>
+    <string name="btExportar">Exportar</string>
+    <string name="btLimparLeituras">Limpar leituras</string>
+    <string name="sobre">Limpar leituras</string>
+
+</resources>

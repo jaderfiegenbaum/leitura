@@ -1,0 +1,230 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background2"
+        android:orientation="vertical" >
+ 
+         <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+ 
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+   
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+ 
+                    <Button
+                        android:id="@+id/btPrimeiro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btPrimeiro" />
+ 
+                    <Button
+                        android:id="@+id/btRetrocede"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btRetrocede" />
+ 
+                    <Button
+                        android:id="@+id/btInsere"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btInsere" />
+ 
+                    <Button
+                        android:id="@+id/btExclui"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btExclui" />
+ 
+                    <Button
+                        android:id="@+id/btAltera"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btAltera" />
+ 
+                    <Button
+                        android:id="@+id/btAvanca"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btAvanca" />
+ 
+                    <Button
+                        android:id="@+id/btUltimo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btUltimo" />
+ 
+                    <Button
+                        android:id="@+id/btAtualiza"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btAtualiza" />
+                 </LinearLayout>
+ 
+            </TableRow>
+             <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+ 
+                 <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+ 
+                    <TextView
+                        android:id="@+id/tvNumero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tvNumero"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+  
+                    <EditText
+                        android:id="@+id/etNumero"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/htNumero"
+                        android:inputType="number" >
+ 
+                        <requestFocus />
+                    </EditText>
+                </LinearLayout>
+ 
+            </TableRow>
+             <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical" >
+
+                     <TextView
+                         android:id="@+id/TextView01"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/tvNome"
+                         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                     <EditText
+                         android:id="@+id/etNome"
+                         android:layout_width="320dp"
+                         android:layout_height="wrap_content"
+                         android:ems="10"
+                         android:hint="@string/htNome" />
+                 </LinearLayout>
+             </TableRow>
+
+             <TableRow
+                 android:id="@+id/TableRow01"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" >
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical" >
+
+                     <TextView
+                         android:id="@+id/tvObservacao"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/tvObservacao"
+                         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                     <EditText
+                         android:id="@+id/etObservacao"
+                         android:layout_width="match_parent"
+                         android:layout_height="64dp"
+                         android:ems="10"
+                         android:hint="@string/htObservacao"
+                         android:inputType="textMultiLine" />
+
+                 </LinearLayout>
+             </TableRow>
+
+             <TableRow
+                 android:id="@+id/TableRow02"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" >
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical" >
+
+                     <TextView
+                         android:id="@+id/tvLatitude"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/tvLatitude"
+                         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                     <EditText
+                         android:id="@+id/etLatitude"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:ems="10" />
+
+                 </LinearLayout>
+             </TableRow>
+
+             <TableRow
+                 android:id="@+id/TableRow03"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" >
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical" >
+
+                     <TextView
+                         android:id="@+id/tvLongitude"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/tvLongitude"
+                         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                     <EditText
+                         android:id="@+id/etLongitude"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:ems="10" />
+                 </LinearLayout>
+             </TableRow>
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal" >
+
+                 <Button
+                     android:id="@+id/btOk"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/btOk"
+                     android:visibility="invisible" />
+                 
+                 <Button
+                     android:id="@+id/btCancelar"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/btCancelar"
+                     android:visibility="invisible" />
+
+             </LinearLayout>
+
+         </TableLayout>
+     </LinearLayout>
